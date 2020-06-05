@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bcs-main-banner/static/css/main.48f60900.chunk.css",
+    "main.js": "/bcs-main-banner/static/js/main.67feec7f.chunk.js",
+    "main.js.map": "/bcs-main-banner/static/js/main.67feec7f.chunk.js.map",
+    "runtime-main.js": "/bcs-main-banner/static/js/runtime-main.0ad42788.js",
+    "runtime-main.js.map": "/bcs-main-banner/static/js/runtime-main.0ad42788.js.map",
+    "static/js/2.94ee509a.chunk.js": "/bcs-main-banner/static/js/2.94ee509a.chunk.js",
+    "static/js/2.94ee509a.chunk.js.map": "/bcs-main-banner/static/js/2.94ee509a.chunk.js.map",
+    "index.html": "/bcs-main-banner/index.html",
+    "precache-manifest.b6b67302c6a8b098304f71b8ee18365c.js": "/bcs-main-banner/precache-manifest.b6b67302c6a8b098304f71b8ee18365c.js",
+    "service-worker.js": "/bcs-main-banner/service-worker.js",
+    "static/css/main.48f60900.chunk.css.map": "/bcs-main-banner/static/css/main.48f60900.chunk.css.map",
+    "static/js/2.94ee509a.chunk.js.LICENSE.txt": "/bcs-main-banner/static/js/2.94ee509a.chunk.js.LICENSE.txt",
+    "static/media/geometria.css": "/bcs-main-banner/static/media/geometria.d41d8cd9.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ad42788.js",
+    "static/js/2.94ee509a.chunk.js",
+    "static/css/main.48f60900.chunk.css",
+    "static/js/main.67feec7f.chunk.js"
+  ]
+}
