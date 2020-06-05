@@ -1,0 +1,28 @@
+.layout {
+    min-height: 520px;
+}
+
+.main-banner {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative
+}
+
+@media (max-width: 1199px) {
+.main-banner {
+    padding: 0 50px;
+}
+}
+
+@media (max-width: 1023px) {
+.main-banner {
+        padding: 0 38px;
+}
+}
+
+@media (max-width: 767px) {
+.main-banner {
+        padding: 0 20px;
+}
+}

@@ -1,0 +1,144 @@
+.header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;  
+    margin: 0;
+    padding: 13px 15px 0;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 10; 
+}
+
+@media (max-width: 1199px) {
+.header {
+    padding: 13px 50px 0;
+}
+}
+    
+ @media (max-width: 1023px) {
+.header {
+    padding: 13px 38px 0;
+}
+}
+    
+@media (max-width: 767px) {
+.header {
+    padding: 13px 20px 20px;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    background: #2B2B51;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);    
+}
+}
+
+.header-left {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;    
+}
+
+@media (max-width: 767px) {
+.header-left {
+    width: 100%;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+}
+
+.header-logo img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.header-logo {
+    width: 162px;
+    height: 30px;
+}
+
+@media (max-width: 767px) {
+.header-logo {
+        display: none;
+}
+}
+
+.header-logo-mobile {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+@media (max-width: 767px) {
+.header-logo-mobile {
+    display: block;
+}
+}
+
+.header-link a {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.67;
+    color: #2B2B51;
+    vertical-align: middle;     
+    text-decoration: none;    
+}
+
+@media (max-width: 767px) {
+.header-link a {
+    color: #FFFFFF;  
+}
+}
+
+.header-link a:hover, .header-link a:focus, .header-link a:active {     
+    text-decoration: underline;
+}
+
+.header-link {
+    margin-left: 42px;
+}
+
+@media (max-width: 767px) {
+.header-phone {
+    display: none;
+}
+}
+
+.header-phone a {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #2B2B51;
+    vertical-align: middle;     
+    text-decoration: none;    
+}
+
+.header-phone a:hover, .header-phone a:focus, .header-phone a:active {     
+    text-decoration: none;
+}
+
+.header-text {
+    display: none;
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #FFFFFF;    
+    margin-top: 17px;
+}
+
+@media (max-width: 767px) {
+.header-text {
+    display: block;
+}
+}
