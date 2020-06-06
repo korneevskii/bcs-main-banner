@@ -91,7 +91,7 @@ export default class Main extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeTabIndex: '1',             
+            activeTabIndex: '1',                
         };
     }
 
@@ -101,8 +101,42 @@ export default class Main extends Component {
         });
     }
 
+    handleTouchStart(event) {
+        this.setState({
+            initialTouch: event.changedTouches[0]
+        });    
+    }
+
+    handleTouchEnd(event) {
+        let initialTouch = this.state.initialTouch;
+        let finalTouch = event.changedTouches[0]
+        let delta = Math.abs(initialTouch.pageX - finalTouch.pageX);
+        let nextTabIndex = '';
+
+        if (delta > 30) {
+            if (finalTouch.pageX < initialTouch.pageX) {
+                nextTabIndex = parseInt(this.state.activeTabIndex) + 1;
+                if (nextTabIndex <= Object.keys(tabs).length) {
+                    nextTabIndex = nextTabIndex.toString();
+                    this.setState({
+                        activeTabIndex: nextTabIndex
+                    });
+                }              
+            }
+            else {
+                nextTabIndex = parseInt(this.state.activeTabIndex) - 1;
+                if (nextTabIndex > 0) {
+                    nextTabIndex = nextTabIndex.toString();
+                    this.setState({
+                        activeTabIndex: nextTabIndex
+                    });
+                }
+            }
+        }        
+    }    
+
     render() {
-        let { activeTabIndex } = this.state;
+        let { activeTabIndex } = this.state;              
         const slide = slides[activeTabIndex];          
         const defBackgroundColor = '#F7F7F7';
         const defSmallBackgroundColor = '#333333';        
@@ -113,9 +147,9 @@ export default class Main extends Component {
                 <span className="tabs_round" style={ activeTabIndex === key ? { backgroundColor: tabs[key].smallTabColor } : { backgroundColor: defSmallBackgroundColor } }></span>                            
             </li>
         ));
-        
+                  
         return (
-            <div className="main-wrapper">            
+            <div className="main-wrapper" onTouchStart = { this.handleTouchStart.bind(this) } onTouchEnd = { this.handleTouchEnd.bind(this) } >            
                 <Layout 
                     activeTabIndex = { activeTabIndex }
                     slideColor = { slide.slideColor } 
@@ -123,8 +157,8 @@ export default class Main extends Component {
                     slideText = { slide.slideText }       
                     slideItemL1 = { slide.slideItemL1 }               
                     slideItemL2 = { slide.slideItemL2 }
-                    slideItemL3 = { slide.slideItemL3 }                                                             
-                />  
+                    slideItemL3 = { slide.slideItemL3 }                                                    
+                />
                 <div className="tabs">                
                     <div className="tabs_wrapper">
                         <ul>
