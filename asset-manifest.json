@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bcs-main-banner/static/css/main.23638e86.chunk.css",
+    "main.css": "/bcs-main-banner/static/css/main.d6ea4ee3.chunk.css",
     "main.js": "/bcs-main-banner/static/js/main.b8dc50dc.chunk.js",
     "main.js.map": "/bcs-main-banner/static/js/main.b8dc50dc.chunk.js.map",
     "runtime-main.js": "/bcs-main-banner/static/js/runtime-main.0ad42788.js",
@@ -8,16 +8,16 @@
     "static/js/2.94ee509a.chunk.js": "/bcs-main-banner/static/js/2.94ee509a.chunk.js",
     "static/js/2.94ee509a.chunk.js.map": "/bcs-main-banner/static/js/2.94ee509a.chunk.js.map",
     "index.html": "/bcs-main-banner/index.html",
-    "precache-manifest.8731bf632c926da6397c5af0cce3abc4.js": "/bcs-main-banner/precache-manifest.8731bf632c926da6397c5af0cce3abc4.js",
+    "precache-manifest.5984be3812978f7a1bf11709382c0a7e.js": "/bcs-main-banner/precache-manifest.5984be3812978f7a1bf11709382c0a7e.js",
     "service-worker.js": "/bcs-main-banner/service-worker.js",
-    "static/css/main.23638e86.chunk.css.map": "/bcs-main-banner/static/css/main.23638e86.chunk.css.map",
+    "static/css/main.d6ea4ee3.chunk.css.map": "/bcs-main-banner/static/css/main.d6ea4ee3.chunk.css.map",
     "static/js/2.94ee509a.chunk.js.LICENSE.txt": "/bcs-main-banner/static/js/2.94ee509a.chunk.js.LICENSE.txt",
     "static/media/geometria.css": "/bcs-main-banner/static/media/geometria.d41d8cd9.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.0ad42788.js",
     "static/js/2.94ee509a.chunk.js",
-    "static/css/main.23638e86.chunk.css",
+    "static/css/main.d6ea4ee3.chunk.css",
     "static/js/main.b8dc50dc.chunk.js"
   ]
 }
