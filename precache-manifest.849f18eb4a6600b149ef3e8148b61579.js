@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50a45b2dbab636f3fa6df67cf706f094",
+    "revision": "67a423f5bb6c5b0decadfa29f4374355",
     "url": "/bcs-main-banner/index.html"
   },
   {
-    "revision": "a0aeb7695b6abbdca03d",
-    "url": "/bcs-main-banner/static/css/main.d6ea4ee3.chunk.css"
+    "revision": "7a5b3f700d0977a0e9d5",
+    "url": "/bcs-main-banner/static/css/main.9db8cb84.chunk.css"
   },
   {
     "revision": "2ea4e228dfd771731563",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bcs-main-banner/static/js/2.94ee509a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0aeb7695b6abbdca03d",
+    "revision": "7a5b3f700d0977a0e9d5",
     "url": "/bcs-main-banner/static/js/main.b8dc50dc.chunk.js"
   },
   {
